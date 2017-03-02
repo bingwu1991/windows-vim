@@ -1,0 +1,10 @@
+# ignore all files and directory
+# exclusive _vimrc
+/*
+!_vimrc
+!.gitignore
+
+!/vimfiles
+/vimfiles/*
+!/vimfiles/bundle
+

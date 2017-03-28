@@ -50,6 +50,7 @@ Plugin 'plasticboy/vim-markdown'
 " Plugin 'suan/vim-instant-markdown'
 " markdown instant
 " Plugin 'isnowfy/python-vim-instant-markdown'
+Plugin 'JamshedVesuna/vim-markdown-preview'
 
 call vundle#end()            " required
 filetype plugin indent on    " required

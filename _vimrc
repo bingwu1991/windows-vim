@@ -118,7 +118,8 @@ let g:syntastic_check_on_wq = 0
 
 " deal chinese,should pass ensure_acsii=False in json.dump function
 :command JSON %!python -m json.my-tool
-:command Javac !javac %:p<cr>
+:command JAVAC !javac %:p<cr>
+:command FIREFOX silent !start D:\Program Files (x86)\Mozilla Firefox\firefox.exe %:p<cr>
 function ShowSpaces(...)
   let @/='\v(\s+$)|( +\ze\t)'
   let oldhlsearch=&hlsearch

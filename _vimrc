@@ -101,8 +101,8 @@ function MyDiff()
 endfunction
 
 " when leave or moved close scratch info
-autocmd InsertLeave * if pumvisible() == 0|pclose|endif
-autocmd CursorMovedI * if pumvisible() == 0|pclose|endif
+" autocmd InsertLeave * if pumvisible() == 0|pclose|endif
+" autocmd CursorMovedI * if pumvisible() == 0|pclose|endif
 
 " syntastic config
 set statusline+=%#warningmsg#
@@ -116,7 +116,7 @@ let g:syntastic_check_on_wq = 0
 :nmap <C-p> :lp <CR>
 
 
-" deal chinese,should pass ensure_acsii=False in json.dump function
+" deal chinese,should pass ensure_ascii=False in json.dump function
 :command JSON %!python -m json.my-tool
 :command JAVAC !javac %:p<cr>
 :command FIREFOX silent !start D:\Program Files (x86)\Mozilla Firefox\firefox.exe %:p<cr>
